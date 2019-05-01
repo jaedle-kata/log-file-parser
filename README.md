@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-log-file-parser.jar <text-input-file> <json-output-file>
+java -jar log-file-parser.jar <text-input-file> <json-output-file>
 ```
 
 ## Input file format
