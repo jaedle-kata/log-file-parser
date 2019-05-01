@@ -27,9 +27,14 @@ java -jar log-file-parser.jar <text-input-file> <json-output-file>
 
 ```json
 {
-    "Example_Thermostat": [
-        {"date": "1546877583", "measured": 17.5, "desired": 17.5},
-        {"date": "1546877751", "measured": 17.8, "desired": 17.0}
+    "thermostats": [
+        {
+            "name": "Example_Thermostat",
+            "measures": [
+                {"date": "1546877583", "temperature": 17.5, "desired": 17.5},
+                {"date": "1546877751", "temperature": 17.8, "desired": 17.0}
+            ]
+        }
     ]
 }
 ```
